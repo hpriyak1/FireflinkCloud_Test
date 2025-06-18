@@ -63,7 +63,7 @@ public class Open_Browser_ParallelRun {
             WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(By.id("small-searchterms")));
             searchBox.click();
             searchBox.sendKeys("Laptop");
-            Thread.sleep(2000);
+            Thread.sleep(3000);
             driver.findElement(By.xpath("//*[@class=\"button-1 search-box-button\"]")).click();
             logResourceUsage("After Search");
 
